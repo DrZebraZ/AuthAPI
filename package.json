@@ -1,0 +1,27 @@
+{
+  "name": "auth-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "tsx watch main.ts"
+  },
+  "keywords": [],
+  "author": "DrZebra",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-zod": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2",
+    "mysql2": "^3.2.0",
+    "zod": "^3.19.1"
+  }
+}
